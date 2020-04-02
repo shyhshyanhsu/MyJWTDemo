@@ -16,3 +16,11 @@ Body includes subject, issuer, issuedAt, expiration time, etc. claims.
 
 Signature tells signatureAlgorithm.
 
+There are several type of claims fox example:
+
+User claim: external or internal user being authenticated (for example against USER table) and credentials being used for jwt.
+
+Service claim: special credentials being used for jwt creation for service to service communciation.
+
+Anonymous claim: special usage.
+
